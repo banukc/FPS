@@ -1,0 +1,32 @@
+/*-------------------------------------------------------------------------*/
+/**
+@file    Common.h
+@brief   It includes definitions of macros and type definitions used in 
+AppWorks. 
+*/
+/*--------------------------------------------------------------------------*/
+#ifndef __COMMON_H_
+#define __COMMON_H_
+
+typedef unsigned char 			UCHAR;
+typedef unsigned char 			BOOL;
+typedef unsigned short int 		UINT2;
+typedef unsigned int 			UINT;
+typedef unsigned long    		ULONG;
+	
+
+/** Successful operation */
+#define SUCCESS 		1
+
+/** Unsuccessful operation */
+#define FAILURE 		0
+
+/** To check true condition */
+#define TRUE 			1
+
+/** To check false condition */
+#define FALSE 		    0
+
+
+#endif /*_COMMON_H_ */
+
